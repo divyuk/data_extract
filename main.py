@@ -14,15 +14,17 @@ def repr_html(url,text):
 
 def append_in_file(final_result,index):
     if final_result != '\n' and final_result != '':
-        with open('myfile.md', 'a+') as write_file:
-            write_file.write(str(index) + ") ")
+        with open('myfile.md', 'a') as write_file:
+            write_file.write(str(index) + ". ")
             write_file.write(final_result)
             write_file.write("\n") 
             final_result = ''
 
-def append_space(space):
-    with open('myfile.md', 'a+') as write_file:
+def append_text(space:str, key : Optional[str] = ''):
+    with open('myfile.md', 'a') as write_file:
         write_file.write(space)
+        if key != '':
+            write_file.write(key)
     
 sent_list = []
 final_result = ''    
@@ -46,26 +48,25 @@ for singleline in lines_list:
         index_links+=1
         reg = r'\/([a-z\.0-9_-]*[\/]?\.?[a-z]*?)$'
         final_text = get_text(final_link , reg)
-        if final_text == ' ':
-            print(final_link)
+        dot_index = final_text.find('.')
         try :
             if final_text == '':
                 final_text = "LINK"
-            elif final_text != ' '  or final_text[-1] =='/':
-                final_text = final_text[0:-1]
-            elif final_text != ' '  or final_text.find('.')!=-1:
-                dot_index = final_text.find('.')
+            if dot_index !=-1:
                 final_text = final_text[0:dot_index]
-                
+            elif final_text[-1] =='/':
+                final_text = final_text[0:-1] 
+    
             html = repr_html(final_link,final_text)
-            append_space(tabspace)
+            append_text(tabspace)
             append_in_file(html,index_links)
         except Exception as e:
             print(final_text,e)
     else:
         if singleline != '\n':
             sent_list.append(singleline)
-
+            
+append_text(space =" ", key="\nKEY POINTS\n")
 for sentence in sent_list:
     if sentence != '\n':
         bullet+=1
