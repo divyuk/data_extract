@@ -1,0 +1,643 @@
+#######Interview questions###########
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/deep-learning-interview-questions
+
+##tenserflow interview questions
+https://www.javatpoint.com/tensorflow-interview-questions
+
+
+##Pytorch
+https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
+https://www.analyticsvidhya.com/blog/2019/09/introduction-to-pytorch-from-scratch/
+
+
+#########Why Relu Activation  is better and theory of activation fucntions#############3
+https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7 Best
+https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
+https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/
+
+https://www.analyticsvidhya.com/blog/2016/08/evolution-core-concepts-deep-learning-neural-networks/
+https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-concepts-for-beginners-in-deep-learning/
+https://www.analyticsvidhya.com/blog/2016/04/deep-learning-computer-vision-introduction-convolution-neural-networks/
+
+
+###Tensorflow#########
+
+https://www.analyticsvidhya.com/blog/2021/11/tensorflow-for-beginners-with-examples-and-python-implementation/
+https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/?utm_source=blog&amp;utm_medium=comparison-deep-learning-framework
+https://www.analyticsvidhya.com/blog/2019/03/deep-learning-frameworks-comparison/
+https://www.analyticsvidhya.com/blog/2016/08/deep-learning-path/
+
+#### Optimizing Neural Network#########
+
+https://www.analyticsvidhya.com/blog/2016/10/tutorial-optimizing-neural-networks-using-keras-with-image-recognition-case-study/?utm_source=blog&amp;utm_medium=comparison-deep-learning-framework
+https://www.quora.com/Machine-Learning-What-are-some-tips-and-tricks-for-training-deep-neural-networks
+
+########Designing neural network#########
+https://towardsdatascience.com/designing-your-neural-networks-a5e4617027ed
+
+
+#########Image Preprocessing#####################3
+https://theailearner.com/tag/image-preprocessing/
+https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html
+https://www.tutorialkart.com/opencv/python/opencv-python-gaussian-image-smoothing/
+https://medium.com/@ariesiitr/image-processing-with-opencv-45c3a5cefd10
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html#thresholding
+
+https://www.mygreatlearning.com/blog/introduction-to-image-pre-processing/
+
+
+
+
+
+####Exploding-gradients-in-neural-networks/
+https://machinelearningmastery.com/exploding-gradients-in-neural-networks/
+
+### Initial layers Vs Last layers in CNN and increasing performance #################
+https://forums.fast.ai/t/why-do-initial-layers-learn-simple-patterns/31410
+https://www.researchgate.net/post/Could_you_give_me_some_advices_about_how_to_improve_the_performance_of_Convolutional_Neural_Networks
+
+########Content-based Image Retrieval (CBIR) using CNN Autoencoders####################
+https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511
+https://www.pyimagesearch.com/2020/03/30/autoencoders-for-content-based-image-retrieval-with-keras-and-tensorflow/
+https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/
+
+##Content-based Image Retrieval (CBIR) using using colour histogram
+https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/
+https://www.pyimagesearch.com/2014/01/22/clever-girl-a-guide-to-utilizing-color-histograms-for-computer-vision-and-image-search-engines/
+
+
+
+#############RNN###############
+https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce
+https://medium.com/explore-artificial-intelligence/an-introduction-to-recurrent-neural-networks-72c97bf0912
+
+https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/
+https://www.analyticsvidhya.com/blog/2018/04/sequence-modelling-an-introduction-with-practical-use-cases/
+https://www.analyticsvidhya.com/blog/2017/12/introduction-to-recurrent-neural-networks/
+https://www.analyticsvidhya.com/blog/2019/01/fundamentals-deep-learning-recurrent-neural-networks-scratch-python/
+
+
+########  Pre Trained Deep learning models#########
+https://keras.io/api/applications/#usage-examples-for-image-classification-models
+https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96
+https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
+https://www.analyticsvidhya.com/blog/2018/07/top-10-pretrained-models-get-started-deep-learning-part-1-computer-vision/
+
+
+https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/
+https://medium.com/comet-ml/approach-pre-trained-deep-learning-models-with-caution-9f0ff739010c
+https://www.tutorialspoint.com/keras/keras_pre_trained_models.htm
+
+
+
+
+The biggest downside to VGG16 (besides how long it takes to train) is the resulting model
+size, weighing in at over 533MB. If you were building a deep learning application and intended
+to ship the model size with your app, you would already have a package > 500MB to distribute.
+Furthermore, all software is updated at some point, requiring you to repackage and re-distribute a
+large 500MB package, likely over a network connection. For high-speed broadband connections,
+this large model size may not be an issue. But for resource constrained devices such as embedded
+devices, cell phones, and even self-driving cars, this 500MB model size can be a huge burden. In
+these types of situations, we prefer very small model sizes.
+
+Luckily, all remaining models we’ll discuss in this bundle are substantially smaller than
+VGGNet. The weights for our highly accurate ResNet model come in at 102MB. GoogLeNet is
+even smaller at 28MB. And the super tiny, efficient SqueezeNet model size is only 4.9MB, making
+it ideal for any type of resource constrained deep learning.
+
+
+
+####DaTA Augmentation#################
+https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/
+
+
+##ealry stopping and checkpoiting######
+https://machinelearningmastery.com/how-to-stop-training-deep-neural-networks-at-the-right-time-using-early-stopping/
+
+### Transfer Learning###############3
+https://www.analyticsvidhya.com/blog/2017/06/transfer-learning-the-art-of-fine-tuning-a-pre-trained-model/
+https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
+
+
+
+
+###########sequence-to-sequence-networks#################
+https://towardsdatascience.com/nlp-sequence-to-sequence-networks-part-1-processing-text-data-d141a5643b72
+https://towardsdatascience.com/nlp-sequence-to-sequence-networks-part-2-seq2seq-model-encoderdecoder-model-6c22e29fd7e1
+https://www.analyticsvidhya.com/blog/2018/03/essentials-of-deep-learning-sequence-to-sequence-modelling-with-attention-part-i/
+https://www.analyticsvidhya.com/blog/2018/04/sequence-modelling-an-introduction-with-practical-use-cases/
+
+
+
+
+
+
+
+
+
+
+###########DL good website###############
+
+https://www.wandb.com/
+
+
+
+
+
+#########Keras Gridsearch*****************
+
+http://queirozf.com/entries/scikit-learn-pipeline-examples#pipeline-with-a-keras-model
+https://stackoverflow.com/questions/47527915/keras-scikit-learn-wrapper-appears-to-hang-when-gridsearchcv-with-n-jobs-1
+https://blogs.oracle.com/meena/simple-neural-network-model-using-keras-and-grid-search-hyperparameterstuning
+https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/
+
+#### One hot incoding for different set of categories in train and test data####
+
+https://medium.com/vickdata/easier-machine-learning-with-the-new-column-transformer-from-scikit-learn-c2268ea9564c
+http://contrib.scikit-learn.org/categorical-encoding/index.html 
+
+
+############PCA
+
+https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+
+### Deploying Tenserflow model
+https://towardsdatascience.com/deploy-tensorflow-models-9813b5a705d5
+https://www.freecodecamp.org/news/how-to-deploy-tensorflow-models-to-production-using-tf-serving-4b4b78d41700/ 
+
+
+
+######pyimagesearch
+https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/
+https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras/
+https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/
+https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/
+
+for rest api
+https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-flask-apache/
+https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
+
+
+
+
+In 2013 a variant of dropout is introduced called Drop connect. Instead of dropping hidden units with certain probability weights are randomly dropped with certain probability. It has been shown that a Drop connect network seemed to perform better than dropout on the MNIST data set.
+
+
+
+##### difference between Vanila Gradient and SGD optimiser##############3
+
+Vanilla gradient descent only performs a weight update once for every epoch – in this example, we
+trained our model for 100 epochs, so only 100 updates took place. Depending on the initialisation
+of the weight matrix and the size of the learning rate, it’s possible that we may not be able to learn
+a model that can separate the points (even though they are linearly separable).
+
+For simple gradient descent, you are better off training for more epochs with a smaller learning
+rate to help overcome this issue. However, as we’ll see in the next section, a variant of gradient
+descent called Stochastic Gradient Descent performs a weight update for every batch of training
+data, implying there are multiple weight updates per epoch. This approach leads to a faster, more
+stable convergence.
+
+''
+## backpropogation####
+The backward pass where we compute the gradient of the loss function at the final layer (i.e.,
+predictions layer) of the network and use this gradient to recursively apply the chain rule to
+update the weights in our network (also known as the weight update phase).
+
+Backpropagation Summary
+In this section, we learned how to implement the backpropagation algorithm from scratch using
+Python. Backpropagation is a generalization of the gradient descent family of algorithms that is
+specifically used to train multi-layer feedforward networks.
+The backpropagation algorithm consists of two phases:
+1. The forward pass where we pass our inputs through the network to obtain our output
+classifications.
+10.1 Neural Network Basics 153
+2. The backward pass (i.e., weight update phase) where we compute the gradient of the loss
+function and use this information to iteratively apply the chain rule to update the weights in
+our network.
+Regardless of whether we are working with simple feedforward neural networks or complex,
+deep Convolutional Neural Networks, the backpropagation algorithm is still used to train these
+models. This is accomplished by ensuring that the activation functions inside the network are
+differentiable, allowing the chain rule to be applied. Furthermore, any other layers inside the network
+that require updates to their weights/parameters, must also be compatible with backpropagation as
+well.
+
+
+############CNN
+
+In traditional feedforward neural networks (like the ones we studied in Chapter 10), each
+neuron in the input layer is connected to every output neuron in the next layer – we call this a fullyconnected
+(FC) layer. However, in CNNs, we don’t use FC layers until the very last layer(s) in the
+network. We can thus define a CNN as a neural network that swaps in a specialized “convolutional”
+layer in place of “fully-connected” layer for at least one of the layers in the network [10].
+
+A nonlinear activation function, such as ReLU, is then applied to the output of these convolutions
+and the process of convolution => activation continues (along with a mixture of other layer types to
+help reduce the width and height of the input volume and help reduce overfitting) until we finally
+reach the end of the network and apply one or two FC layers where we can obtain our final output
+classifications.
+
+Each layer in a CNN applies a different set of filters, typically hundreds or thousands of them,
+and combines the results, feeding the output into the next layer in the network. During training, a
+CNN automatically learns the values for these filters.
+
+In the context of image classification, our CNN may learn to:
+
+Detect edges from raw pixel data in the first layer.
+Use these edges to detect shapes (i.e., “blobs”) in the second layer.
+Use these shapes to detect higher-level features such as facial structures, parts of a car, etc.
+in the highest layers of the network.
+
+
+
+The last layer in a CNN uses these higher-level features to make predictions regarding the
+contents of the image. In practice, CNNs give us two key benefits: local invariance and compositionality.
+The concept of local invariance allows us to classify an image as containing a particular
+object regardless of where in the image the object appears. We obtain this local invariance through
+the usage of "pooling layers” (discussed later in this chapter) which identifies regions of our input
+volume with a high response to a particular filter.
+
+The second benefit is compositionality. Each filter composes a local patch of lower-level features
+into a higher-level representation, similar to how we can compose a set of mathematical functions
+that build on the output of previous functions: f (g(h(x))) – this composition allows our network to
+learn more rich features deeper in the network. For example, our network may build edges from
+pixels, shapes from edges, and then complex objects from shapes – all in an automated fashion that
+happens naturally during the training process. The concept of building higher-level features from
+lower-level ones is exactly why CNNs are so powerful in computer vision.
+
+It’s normal to hand-define kernels to obtain various image processing functions. In fact, you
+might already be familiar with blurring (average smoothing, Gaussian smoothing, etc.), edge
+detection (Laplacian, Sobel, Scharr, Prewitt, etc.), and sharpening – all of these operations are
+forms of hand-defined kernels that are specifically designed to perform a particular function.
+
+
+
+Layer Types
+There are many types of layers used to build Convolutional Neural Networks, but the ones you are
+most likely to encounter include:
+
+Convolutional (CONV)
+Activation (ACT or RELU, where we use the same or the actual activation function)
+Pooling (POOL)
+Fully-connected (FC)
+Batch normalization (BN)
+Dropout (DO)
+
+
+
+Stacking a series of these layers in a specific manner yields a CNN. We often use simple text
+diagrams to describe a CNN: INPUT => CONV => RELU => FC => SOFTMAX
+Here we define a simple CNN that accepts an input, applies a convolution layer, then an
+activation layer, then a fully-connected layer, and, finally, a softmax classifier to obtain the output
+classification probabilities. The SOFTMAX activation layer is often omitted from the network diagram
+as it is assumed it directly follows the final FC.
+
+Of these layer types, CONV and FC, (and to a lesser extent, BN) are the only layers that contain
+parameters that are learned during the training process. Activation and dropout layers are
+not considered true “layers" themselves, but are often included in network diagrams to make the
+architecture explicitly clear. Pooling layers (POOL), of equal importance as CONV and FC, are also
+included in network diagrams as they have a substantial impact on the spatial dimensions of an
+image as it moves through a CNN.
+CONV, POOL, RELU, and FC are the most important when defining your actual network
+architecture. That’s not to say that the other layers are not critical, but take a backseat to this
+critical set of four as they define the actual architecture itself.
+
+
+We then have a kernel responsible for sharpening an image:
+55 # construct a sharpening filter
+56 sharpen = np.array((
+57 [0, -1, 0],
+58 [-1, 5, -1],
+59 [0, -1, 0]), dtype="int")
+Then the Laplacian kernel used to detect edge-like regions:
+11.1 Understanding Convolutions 177
+61 # construct the Laplacian kernel used to detect edge-like
+62 # regions of an image
+63 laplacian = np.array((
+64 [0, 1, 0],
+65 [1, -4, 1],
+66 [0, 1, 0]), dtype="int")
+The Sobel kernels can be used to detect edge-like regions along both the x and y axis, respectively:
+68 # construct the Sobel x-axis kernel
+69 sobelX = np.array((
+70 [-1, 0, 1],
+71 [-2, 0, 2],
+72 [-1, 0, 1]), dtype="int")
+73
+74 # construct the Sobel y-axis kernel
+75 sobelY = np.array((
+76 [-1, -2, -1],
+77 [0, 0, 0],
+78 [1, 2, 1]), dtype="int")
+And finally, we define the emboss kernel:
+80 # construct an emboss kernel
+81 emboss = np.array((
+82 [-2, -1, 0],
+83 [-1, 1, 1],
+84 [0, 1, 2]), dtype="int")
+Explaining how each of these kernels were formulated is outside the scope of this book, so for
+the time being simply understand that these are kernels that were manually built to perform a given
+operation.
+For a thorough treatment of how kernels are mathematically constructed and proven to perform
+a given image processing operation, please refer to Szeliksi (Chapter 3) [124]. I also recommend
+using this excellent kernel visualization tool from Setosa.io [125].
+Given all these kernels, we can lump them together into a set of tuples called a “kernel bank”:
+86 # construct the kernel bank, a list of kernels we’re going to apply
+87 # using both our custom ‘convolve‘ function and OpenCV’s ‘filter2D‘
+88 # function
+89 kernelBank = (
+90 ("small_blur", smallBlur),
+91 ("large_blur", largeBlur),
+92 ("sharpen", sharpen),
+93 ("laplacian", laplacian),
+94 ("sobel_x", sobelX),
+95 ("sobel_y", sobelY),
+96 ("emboss", emboss))
+
+
+#########Zero-padding###############
+
+As we know from Section 11.1.5, we need to “pad” the borders of an image to retain the original
+image size when applying a convolution – the same is true for filters inside of a CNN. Using
+zero-padding, we can “pad” our input along the borders such that our output volume size matches
+our input volume size. The amount of padding we apply is controlled by the parameter P.
+This technique is especially critical when we start looking at deep CNN architectures that apply
+multiple CONV filters on top of each other. To visualize zero-padding, again refer to Table 11.1
+where we applied a 33 Laplacian kernel to a 55 input image with a stride of S = 1.
+
+We can see in Table 11.3 (left) how the output volume is smaller (33) than the input volume
+(55) due to the nature of the convolution operation. If we instead set P = 1, we can pad our
+input volume with zeros (right) to create a 77 volume and then apply the convolution operation,
+leading to an output volume size that matches the original input volume size of 55 (bottom).
+Without zero padding, the spatial dimensions of the input volume would decrease too quickly,
+and we wouldn’t be able to train deep networks (as the input volumes would be too tiny to learn
+any useful patterns from).
+
+Putting all these parameters together, we can compute the size of an output volume as a function
+of the input volume size (W, assuming the input images are square, which they nearly always are),
+the receptive field size F, the stride S, and the amount of zero-padding P. To construct a valid CONV
+layer, we need to ensure the following equation is an integer:
+((W-F +2P)=S)+1
+If it is not an integer, then the strides are set incorrectly, and the neurons cannot be tiled such
+that they fit across the input volume in a symmetric way.
+
+Pooling Layers
+There are two methods to reduce the size of an input volume – CONV layers with a stride > 1 (which
+we’ve already seen) and POOL layers. It is common to insert POOL layers in-between consecutive
+CONV layers in a CNN architectures:
+INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC
+The primary function of the POOL layer is to progressively reduce the spatial size (i.e., width
+and height) of the input volume. Doing this allows us to reduce the amount of parameters and
+computation in the network – pooling also helps us control overfitting.
+
+POOL layers operate on each of the depth slices of an input independently using either the
+max or average function. Max pooling is typically done in the middle of the CNN architecture
+to reduce spatial size, whereas average pooling is normally used as the final layer of the network
+(e.x., GoogLeNet, SqueezeNet, ResNet) where we wish to avoid using FC layers entirely. The most
+common type of POOL layer is max pooling, although this trend is changing with the introduction
+of more exotic micro-architectures.
+####################################################################
+
+To POOL or CONV?
+
+In their 2014 paper, Striving for Simplicity: The All Convolutional Net, Springenberg et al. [127]
+recommend discarding the POOL layer entirely and simply relying on CONV layers with a larger
+stride to handle downsampling the spatial dimensions of the volume. Their work demonstrated this
+approach works very well on a variety of datasets, including CIFAR-10 (small images, low number
+of classes) and ImageNet (large input images, 1,000 classes). This trend continues with the ResNet
+architecture [101] which uses CONV layers for downsampling as well.
+It’s becoming increasingly more common to not use POOL layers in the middle of the network
+architecture and only use average pooling at the end of the network if FC layers are to be avoided.
+Perhaps in the future there won’t be pooling layers in Convolutional Neural Networks – but in the
+meantime, it’s important that we study them, learn how they work, and apply them to our own
+architectures.
+
+
+##########################################CNN Convulation Layer@@@@@@@@@@@@@@@@@@@
+
+The CONV layer is the core building block of a Convolutional Neural Network. The CONV layer
+parameters consist of a set of K learnable filters (i.e., “kernels”), where each filter has a width and a
+height, and are nearly always square. These filters are small (in terms of their spatial dimensions)
+but extend throughout the full depth of the volume
+
+For inputs to the CNN, the depth is the number of channels in the image (i.e., a depth of three
+when working with RGB images, one for each channel). For volumes deeper in the network, the
+depth will be the number of filters applied in the previous layer.
+
+To make this concept more clear, let’s consider the forward-pass of a CNN, where we convolve
+each of the K filters across the width and height of the input volume, just like we did in Section
+11.1.5 above. More simply, we can think of each of our K kernels sliding across the input region,
+computing an element-wise multiplication, summing, and then storing the output value in a 2-
+dimensional activation map, such as in Figure 11.6.
+After applying all K filters to the input volume, we now have K, 2-dimensional activation maps.
+We then stack our K activation maps along the depth dimension of our array to form the final output
+volume (Figure 11.7).
+
+Every entry in the output volume is thus an output of a neuron that “looks” at only a small
+region of the input. In this manner, the network “learns” filters that activate when they see a specific
+type of feature at a given spatial location in the input volume. In lower layers of the network, filters
+may activate when they see edge-like or corner-like regions.
+
+Then, in the deeper layers of the network, filters may activate in the presence of high-level
+features, such as parts of the face, the paw of a dog, the hood of a car, etc. This activation concept
+goes back to our neural network analogy in Chapter 10 – these neurons are becoming “excited” and
+“activating” when they see a particular pattern in an input image.
+
+##################why earch neuron in current layer is not connected to every neoron in previous layer in CNN############3
+
+The concept of convolving a small filter with a large(r) input volume has special meaning in
+Convolutional Neural Networks – specifically, the local connectivity and the receptive field of
+a neuron. When working with images, it’s often impractical to connect neurons in the current
+volume to all neurons in the previous volume – there are simply too many connections and too
+many weights, making it impossible to train deep networks on images with large spatial dimensions.
+Instead, when utilizing CNNs, we choose to connect each neuron to only a local region of the input
+volume – we call the size of this local region the receptive field (or simply, the variable F) of the
+neuron.
+To make this point clear, let’s return to our CIFAR-10 dataset where the input volume has an
+input size of 32323. Each image thus has a width of 32 pixels, a height of 32 pixels, and a
+depth of 3 (one for each RGB channel). If our receptive field is of size 33, then each neuron in
+the CONV layer will connect to a 33 local region of the image for a total of 333 = 27 weights
+(remember, the depth of the filters is three because they extend through the full depth of the input
+image, in this case, three channels). 
+
+
+
+#####################Batch Normalization######################3
+
+Batch normalization has been shown to be extremely effective at reducing the number of
+epochs it takes to train a neural network. Batch normalization also has the added benefit of helping
+“stabilize” training, allowing for a larger variety of learning rates and regularization strengths. Using
+batch normalization doesn’t alleviate the need to tune these parameters of course, but it will make
+your life easier by making learning rate and regularization less volatile and more straightforward
+to tune. You’ll also tend to notice lower final loss and a more stable loss curve when using batch
+normalization in your networks.
+
+The biggest drawback of batch normalization is that it can actually slow down the wall time it
+takes to train your network (even though you’ll need fewer epochs to obtain reasonable accuracy)
+by 2-3x due to the computation of per-batch statistics and normalization.
+
+I can confirm that in nearly all experiments I’ve performed with CNNs, placing the BN after the
+RELU yields slightly higher accuracy and lower loss.
+
+
+
+###############most common CNN layer architecture###################
+INPUT => [[CONV => RELU]*N => POOL?]*M => [FC => RELU]*K => FC
+
+Alexnet Architecture
+INPUT => [CONV => RELU => POOL] * 2 => [CONV => RELU] * 3 => POOL =>[FC => RELU => DO] * 2 => SOFTMAX
+
+###VGGNET Architecture########
+For deeper network architectures, such as VGGNet [100], we’ll stack two (or more) layers
+before every POOL layer:
+
+INPUT => [CONV => RELU] * 2 => POOL => [CONV => RELU] * 2 => POOL =>[CONV => RELU] * 3 => POOL => [CONV => RELU] * 3 => POOL =>[FC => RELU => DO] * 2 => SOFTMAX
+
+Generally, we apply deeper network architectures when we (1) have lots of labeled training
+data and (2) the classification problem is sufficiently challenging. Stacking multiple CONV layers
+before applying a POOL layer allows the CONV layers to develop more complex features before the
+destructive pooling operation is performed.
+
+
+Somearchitectures remove the POOL operation entirely, relying on CONV layers to downsample the volume
+– then, at the end of the network, average pooling is applied rather than FC layers to obtain the input
+to the softmax classifiers.
+Network architectures such as GoogLeNet, ResNet, and SqueezeNet [101, 102, 132] are great
+examples of this pattern and demonstrate how removing FC layers leads to less parameters and
+faster training time.
+
+
+
+
+
+##########################Rules of Thumbs in CNN ##########################
+In this section, I’ll review common rules of thumb when constructing your own CNNs. To start,
+the images presented to the input layer should be square. Using square inputs allows us to take
+advantage of linear algebra optimization libraries. Common input layer sizes include 3232,
+11.3 Common Architectures and Training Patterns 193
+6464, 9696, 224224, 227227 and 229229 (leaving out the number of channels for
+notational convenience).
+Secondly, the input layer should also be divisible by two multiple times after the first CONV
+operation is applied. You can do this by tweaking your filter size and stride. The “divisible by two
+rule" enables the spatial inputs in our network to be conveniently down sampled via POOL operation
+in an efficient manner.
+In general, your CONV layers should use smaller filter sizes such as 33 and 55. Tiny
+11 filters are used to learn local features, but only in your more advanced network architectures.
+Larger filter sizes such as 77 and 1111 may be used as the first CONV layer in the network (to
+reduce spatial input size, provided your images are sufficiently larger than > 200200 pixels);
+however, after this initial CONV layer the filter size should drop dramatically, otherwise you will
+reduce the spatial dimensions of your volume too quickly.
+You’ll also commonly use a stride of S = 1 for CONV layers, at least for smaller spatial input
+volumes (networks that accept larger input volumes use a stride S >= 2 in the first CONV layer to
+help reduce spatial dimensions). Using a stride of S = 1 enables our CONV layers to learn filters
+while the POOL layer is responsible for downsampling. However, keep in mind that not all network
+architectures follow this pattern – some architectures skip max pooling altogether and rely on the
+CONV stride to reduce volume size.
+My personal preference is to apply zero-padding to my CONV layers to ensure the output
+dimension size matches the input dimension size – the only exception to this rule is if I want
+to purposely reduce spatial dimensions via convolution. Applying zero-padding when stacking
+multiple CONV layers on top of each other has also demonstrated to increase classification accuracy
+in practice. As we’ll see later in this book, libraries such as Keras can automatically compute
+zero-padding for you, making it even easier to build CNN architectures.
+A second personal recommendation is to use POOL layers (rather than CONV layers) to reduce
+the spatial dimensions of your input, at least until you become more experienced constructing your
+own CNN architectures. Once you reach that point, you should start experimenting with using CONV
+layers to reduce spatial input size and try removing max pooling layers from your architecture.
+Most commonly, you’ll see max pooling applied over a 22 receptive field size and a stride of
+S = 2. You might also see a 33 receptive field early in the network architecture to help reduce
+image size. It is highly uncommon to see receptive fields larger than three since these operations
+are very destructive to their inputs.
+Batch normalization is an expensive operation which can double or triple the amount of time it
+takes to train your CNN; however, I recommend using BN in nearly all situations. While BN does
+indeed slow down the training time, it also tends to “stabilize” training, making it easier to tune
+other hyperparameters (there are some exceptions, of course – I detail a few of these “exception
+architectures" inside the ImageNet Bundle).
+I also place the batch normalization after the activation, as has become commonplace in the
+deep learning community even though it goes against the original Ioffe and Szegedy paper [128].
+Inserting BN into the common layer architectures above, they become:
+ INPUT => CONV => RELU => BN => FC
+ INPUT => [CONV => RELU => BN => POOL] * 2 => FC => RELU => BN => FC
+ INPUT => [CONV => RELU => BN => CONV => RELU => BN => POOL] * 3 => [FC =>
+RELU => BN] * 2 => FC
+You do not apply batch normalization before the softmax classifier as at this point we assume
+our network has learned its discriminative features earlier in the architecture.
+Dropout (DO) is typically applied in between FC layers with a dropout probability of 50% –
+you should consider applying dropout in nearly every architecture you build. While not always
+performed, I also like to include dropout layers (with a very small probability, 10-25%) between
+194 Chapter 11. Convolutional Neural Networks
+POOL and CONV layers. Due to the local connectivity of CONV layers, dropout is less effective here,
+but I’ve often found it helpful when battling overfitting.
+By keeping these rules of thumb in mind, you’ll be able to reduce your headaches when
+constructing CNN architectures since your CONV layers will preserve input sizes while the POOL
+layers take care of reducing spatial dimensions of the volumes, eventually leading to FC layers and
+the final output classifications.
+Once you master this “traditional” method of building Convolutional Neural Networks, you
+should then start exploring leaving max pooling operations out entirely and using just CONV layers
+to reduce spatial dimensions, eventually leading to average pooling rather than an FC layer – these
+types of more advanced architecture techniques are covered inside the ImageNet Bundle.
+
+
+
+The first layer of the CNN usually includes filter sizes somewhere between 77 [99] and
+1111 [133]. From there, filter sizes progressively reduced to 55. Finally, only the deepest
+layers of the network used 33 filters.
+VGGNet is unique in that it uses 33 kernels throughout the entire architecture. The use
+of these small kernels is arguably what helps VGGNet generalize to classification problems outside
+what the network was originally trained on (we’ll see this inside the Practitioner Bundle and
+ImageNet Bundle when we discuss transfer learning).
+Any time you see a network architecture that consists entirely of 33 filters, you can rest
+assured that it was inspired by VGGNet. Reviewing the entire 16 and 19 layer variants of VGGNet
+is too advanced for this introduction to Convolutional Neural Networks – for
+
+
+The VGG Family of Networks
+The VGG family of Convolutional Neural Networks can be characterized by two key components:
+1. All CONV layers in the network using only 33 filters.
+
+2. Stacking multiple CONV => RELU layer sets (where the number of consecutive CONV =>
+RELU layers normally increases the deeper we go) before applying a POOL operation
+
+
+###########Data Augmentation#################
+
+Keras Class NAme-ImageDataGenerator:
+
+aug = ImageDataGenerator(rotation_range=30, width_shift_range=0.1,
+28 height_shift_range=0.1, shear_range=0.2, zoom_range=0.2,
+29 horizontal_flip=True, fill_mode="nearest")
+
+Notice how each image has been randomly rotated, sheared, zoomed, and horizontally
+flipped. In each case the image retains the original class label: dog; however, each image has been
+modified slightly, thereby giving our neural network new patterns to learn from when training. Since
+the input images will constantly be changing (while the class labels remain the same), it’s common
+to see our training accuracy decrease when compared to training without data augmentation.
+However, as we’ll find out later in this chapter, data augmentation can help dramatically reduce
+overfitting, all the while ensuring that our model generalizes better to new input samples. Furthermore,
+when working with datasets where we have too few examples to apply deep learning, we
+can utilize data augmentation to generate additional training data, thereby reducing the amount of
+hand-labeled data required to train a deep learning network.
+
+### resizing images while maintaining aspect ratio############
+
+However, for more challenging datasets we should still seek to resize to a fixed size, but
+maintain the aspect ratio. To visualize this action, consider Figure 2.4.
+On the left, we have an input image that we need to resize to a fixed width and height. Ignoring
+the aspect ratio, we resize the image to 256256 pixels (middle), effectively squishing and
+distorting the image such that it meets our desired dimensions. A better approach would be to
+take into account the aspect ratio of the image (right) where we first resize along the shorter
+dimension such that the width is 256 pixels and then crop the image along the height, such that the
+height is 256 pixels.
+While we have effectively discarded part of the image during the crop, we have also maintained
+the original aspect ratio of the image. Maintaining a consistent aspect ratio allows our Convolutional
+Neural Network to learn more discriminative, consistent features. 
+
+Data augmentation is a type of regularisation technique that operates on the training data. As the
+name suggests, data augmentation randomly jitters our training data by applying a series of random
+translations, rotations, shears, and flips. Applying these simple transformations does not change the
+class label of the input image; however, each augmented image can be considered a “new” image
+that the training algorithm has not seen before. Therefore, our training algorithm is being constantly
+presented with new training samples, allowing it to learn more robust and discriminative patterns.
+
+When it comes to your own experiments, you should apply data augmentation to nearly every experiment you run. There is a slight performance
+hit you must take due to the fact that the CPU is now responsible for randomly transforming your
+inputs; however, this performance hit is mitigated by using threading and augmenting your data in
+the background before it is passed to the thread responsible for training your network.

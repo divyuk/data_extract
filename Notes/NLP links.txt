@@ -1,0 +1,282 @@
+### NLP keras use cases##############
+https://github.com/fchollet/keras-resources
+
+
+########Imp github Profiles for learning NLP##########
+https://github.com/stepthom/text_mining_resources
+https://github.com/alexeygrigorev
+https://github.com/bradleypallen/
+https://medium.com/@pratikbhavsar
+https://medium.com/modern-nlp/nlp-metablog-a-blog-of-blogs-693e3a8f1e0c
+
+
+
+
+## nlp
+https://www.analyticsvidhya.com/blog/2018/02/the-different-methods-deal-text-data-predictive-python/
+https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/
+https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/
+https://monkeylearn.com/sentiment-analysis/
+https://www.datacamp.com/community/tutorials/sentiment-analysis-R#prepwork
+https://www.kaggle.com/reiinakano/basic-nlp-bag-of-words-tf-idf-word2vec-lstm
+
+https://www.analyticsvidhya.com/blog/2018/07/hands-on-sentiment-analysis-dataset-python/
+https://www.analyticsvidhya.com/blog/2019/03/pretrained-models-get-started-nlp/
+https://www.analyticsvidhya.com/blog/2019/02/stanfordnlp-nlp-library-python/
+
+########CBOW and nGRAM  ..Pretrained Models########################3
+https://www.analyticsvidhya.com/blog/2020/03/pretrained-word-embeddings-nlp/?utm_source=KJLinkedin&utm_medium=post&utm_campaign=16_mar_new_Article
+
+#### word2vec and glove difference #########
+https://machinelearninginterview.com/topics/natural-language-processing/what-is-the-difference-between-word2vec-and-glove/
+
+
+###Data Augmentation in NLP
+https://neptune.ai/blog/data-augmentation-nlp
+https://towardsdatascience.com/powerful-text-augmentation-using-nlpaug-5851099b4e97
+https://maelfabien.github.io/machinelearning/NLP_8/#eda-library
+
+
+###Python regex
+https://www.machinelearningplus.com/python/python-regex-tutorial-examples/
+https://medium.com/analytics-vidhya/regular-expressions-an-excellent-tool-for-text-analysis-or-nlp-d1fa7d666cb9
+
+################Developing Word Embedding###############
+
+https://machinelearningmastery.com/develop-word-embeddings-python-gensim/
+https://www.quora.com/How-is-GloVe-different-from-word2vec
+
+######## Stemming & Lemititation
+
+https://towardsdatascience.com/stemming-lemmatization-what-ba782b7c0bd8
+https://www.machinelearningplus.com/nlp/lemmatization-examples-python/
+
+
+########BERT and Transformar Pre Trained Model for transgfer learning 
+
+
+https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/
+https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
+
+### BERT Pytorch model coding 
+https://chriskhanhtran.github.io/_posts/2019-12-25-bert-for-sentiment-analysis/
+https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/
+https://towardsdatascience.com/bert-for-dummies-step-by-step-tutorial-fb90890ffe03  
+
+###wordpeice Tokenzer
+
+https://towardsdatascience.com/wordpiece-subword-based-tokenization-algorithm-1fbd14394ed7
+
+
+
+###how BERT Embedding works
+https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/
+https://blog.floydhub.com/tokenization-nlp/
+https://www.youtube.com/watch?v=zjaRNfvNMTs
+https://www.youtube.com/watch?v=zJW57aCBCTk&feature=youtu.be
+
+###Attention#################
+https://towardsdatascience.com/intuitive-understanding-of-attention-mechanism-in-deep-learning-6c9482aecf4f - conceptwise best
+http://www.davidsbatista.net/blog/2020/01/25/Attention-seq2seq/
+https://medium.com/@joealato/attention-in-nlp-734c6fa9d983
+https://medium.com/analytics-vidhya/https-medium-com-understanding-attention-mechanism-natural-language-processing-9744ab6aed6a
+
+###transformers and Attention ###
+https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/ 
+https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/
+
+
+##### LSTM####################
+https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/
+https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47
+
+https://analyticsindiamag.com/how-to-code-your-first-lstm-network-in-keras/
+
+## Difference between LSTM and Bidirectional LSTM###########
+https://stackoverflow.com/questions/43035827/whats-the-difference-between-a-bidirectional-lstm-and-an-lstm
+https://medium.com/@raghavaggarwal0089/bi-lstm-bc3d68da8bd0
+
+####Difference between feedback RNN and LSTM/GRU##########
+https://stats.stackexchange.com/questions/222584/difference-between-feedback-rnn-and-lstm-gru/420172#420172
+
+########Pytorch##############3
+https://www.analyticsvidhya.com/blog/2019/09/introduction-to-pytorch-from-scratch/
+https://www.analyticsvidhya.com/blog/2020/01/first-text-classification-in-pytorch/
+https://www.analyticsvidhya.com/blog/2019/10/building-image-classification-models-cnn-pytorch/
+
+
+
+#########NLTK and Spacy comparison########3
+https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2
+
+
+text classification
+https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/
+
+https://github.com/NirantK/awesome-project-ideas#text
+
+
+
+
+###word2vec and doc2vec
+https://thinkinfi.com/simple-doc2vec-explained/
+
+
+######### Topic modelling######
+https://www.analyticsvidhya.com/blog/2021/07/topic-modelling-with-lda-a-hands-on-introduction/
+https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/
+https://www.analyticsvidhya.com/blog/2018/10/mining-online-reviews-topic-modeling-lda/
+https://nlpforhackers.io/topic-modeling/
+
+### LSA
+https://www.analyticsvidhya.com/blog/2018/10/stepwise-guide-topic-modeling-latent-semantic-analysis/
+
+https://towardsdatascience.com/2-latent-methods-for-dimension-reduction-and-topic-modeling-20ff6d7d547
+https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05
+
+## LSA ,LDA comparison
+https://www.analyticssteps.com/blogs/introduction-latent-semantic-analysis-lsa-and-latent-dirichlet-allocation-lda
+https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05
+https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05
+
+###evaluating Topic modelling##########
+https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0
+https://www.machinelearningplus.com/nlp/topic-modeling-python-sklearn-examples/
+
+
+
+#########Text Summarisation
+https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/
+
+#######Greedy and beam Search ###############
+
+https://towardsdatascience.com/foundations-of-nlp-explained-visually-beam-search-how-it-works-1586b9849a24
+
+##pointer generator
+http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html
+https://medium.com/@ykg1997matrix/abstractive-text-summarization-using-pointer-generator-networks-deep-learning-d6af7bbc0dbf
+https://github.com/theamrzaki/text_summurization_abstractive_methods
+https://github.com/icoxfog417/awesome-text-summarization#abstractive
+
+##Evaluation BLUE and Rouge Score
+https://medium.com/@blogsupport/text-summarization-using-deep-learning-techniques-fb9fb628881d
+https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/
+https://machinelearningmastery.com/calculate-bleu-score-for-text-python/
+https://ilmoirfan.com/rouge-an-evaluation-metric-for-text-summarization/
+
+##extractive
+https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/
+https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70
+
+###Abstractive
+https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/
+
+####Word Frequency
+https://www.analyticsvidhya.com/blog/2020/12/tired-of-reading-long-articles-text-summarization-will-make-your-task-easier/
+
+###Comparing all techniques
+https://towardsdatascience.com/comparing-text-summarization-techniques-d1e2e465584e
+
+
+###Keyword Extraction
+https://medium.com/analytics-vidhya/automated-keyword-extraction-from-articles-using-nlp-bfd864f41b34
+https://towardsdatascience.com/keyword-extraction-with-bert-724efca412ea
+https://www.analyticsvidhya.com/blog/2020/11/words-that-matter-a-simple-guide-to-keyword-extraction-in-python/
+
+### Information extraction
+https://www.analyticsvidhya.com/blog/2020/06/nlp-project-information-extraction/?utm_source=AVLinkedin&utm_medium=post&utm_campaign=29_june_new_article
+https://www.analyticsvidhya.com/blog/2019/09/introduction-information-extraction-python-spacy/
+https://www.analyticsvidhya.com/blog/2017/12/introduction-computational-linguistics-dependency-trees/
+https://github.com/explosion/spaCy/blob/master/website/docs/usage/rule-based-matching.md#example-using-linguistic-annotations-example1
+
+https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da
+https://towardsdatascience.com/named-entity-recognition-applications-and-use-cases-acdbf57d595e
+
+https://towardsdatascience.com/custom-named-entity-recognition-using-spacy-7140ebbb3718
+https://medium.com/greyatom/learning-pos-tagging-chunking-in-nlp-85f7f811a8cb
+
+## understanding noun phrase,verb phrase and chunking
+https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72
+
+###NER on Spacy 
+https://spacy.io/usage/spacy-101#annotations-ner
+https://www.ayobamiadewole.com/Blog/named-entity-extraction-from-text-in-python
+
+
+
+
+
+##Pretrained Models on Electronic Health Records unstructured Dataset(EHR)
+https://medium.com/@kormilitzin/med7-clinical-information-extraction-system-in-python-and-spacy-5e6f68ab1c68
+https://github.com/NLPatVCU/medaCy
+
+##NER on Job resumes data
+https://medium.com/@dataturks/automatic-summarization-of-resumes-with-ner-8b97a5f562b
+
+
+
+
+########Knowledge graph NLP####
+https://algoanalytics.com/patientknowledgegraph.html
+https://medium.com/algoanalytics/patient-knowledge-graph-ac6b8905ffa5
+https://www.analyticsvidhya.com/blog/2019/10/how-to-build-knowledge-graph-text-using-spacy/
+https://programmerbackpack.com/python-nlp-tutorial-information-extraction-and-knowledge-graphs/
+
+##knowledge graph on biomedical datasets
+
+https://medium.com/@kormilitzin/med7-clinical-information-extraction-system-in-python-and-spacy-5e6f68ab1c68
+https://arxiv.org/pdf/2003.01271.pdf
+https://medium.com/walmartlabs/retail-graph-walmarts-product-knowledge-graph-6ef7357963bc
+
+
+###Relation extraction 
+https://medium.com/@andreasherman/different-ways-of-doing-relation-extraction-from-text-7362b4c3169e
+https://www.youtube.com/watch?v=a48vIACEC_w  ## Supervised relation extraction
+
+https://www.youtube.com/watch?v=kSxfsvF9KQE  ## Rule Based
+https://www.youtube.com/watch?v=Jxqx70iX9kc  # Semi Supervised and Unsupervised
+
+###Scispacy
+https://medium.com/@maheshdmahi/scispacy-for-bio-medical-named-entity-recognition-ner-63ed548f1df0
+
+
+####BIOBERT
+https://towardsdatascience.com/how-to-apply-bert-in-scientific-domain-2d9db0480bd9
+https://medium.com/@raghudeep/biobert-insights-b4c66fde8fa7
+https://www.youtube.com/watch?v=319HXRop_r8
+https://arxiv.org/ftp/arxiv/papers/1901/1901.08746.pdf
+
+#BioBert pretrained weights
+https://github.com/naver/biobert-pretrained
+## BioBert fine tuning
+https://github.com/dmis-lab/biobert
+
+########Langauge Translation##########
+https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa
+https://www.analyticsvidhya.com/blog/2019/01/neural-machine-translation-keras/
+
+
+
+
+
+###Pratik blog
+
+https://medium.com/modern-nlp/nlp-interview-questions-f062040f32f7
+https://medium.com/modern-nlp/on-variety-of-encoding-text-8b7623969d1e
+https://medium.com/modern-nlp
+
+
+#############Transfer Learning and domain adaptation #########
+https://medium.com/modern-nlp/transfer-learning-in-nlp-f5035cc3f62f
+https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
+
+
+
+
+
+####GPU or TPU##########
+https://www.predictiveanalyticsworld.com/machinelearningtimes/should-you-choose-a-gpu-or-a-tpu-to-train-your-machine-learning-models/10460/
+https://analyticsindiamag.com/tpu-vs-gpu-vs-cpu-which-hardware-should-you-choose-for-deep-learning/
+https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning
+
+

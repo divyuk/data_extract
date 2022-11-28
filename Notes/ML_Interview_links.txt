@@ -1,0 +1,873 @@
+Comparing the Python Comparison Operators
+
+https://realpython.com/python-is-identity-vs-equality/
+
+
+As a rule of thumb, you should always use the equality operators == and !=, except when you’re comparing to None:
+	•	Use the Python == and != operators to compare object equality. Here, you’re generally comparing the value of two objects. This is what you need if you want to compare whether or not two objects have the same contents, and you don’t care about where they’re stored in memory.
+	•	Use the Python is and is not operators when you want to compare object identity. Here, you’re comparing whether or not two variables point to the same object in memory. The main use case for these operators is when you’re comparing to None. It’s faster and safer to compare to None by memory address than it is by using class methods.
+Variables with the same value are often stored at separate memory addresses. This means that you should use == and != to compare their values and use the Python is and is not operators only when you want to check whether two variables point to the same memory address.
+
+
+################## reset_index pandas dataframe #######################
+
+https://www.machinelearningplus.com/pandas/pandas-reset-index/
+
+
+###########parsing netsted dictionary#######
+
+https://towardsdatascience.com/how-do-i-extract-nested-data-in-python-4e7bed37566a. Good
+
+###Python Code optimisation
+
+https://hackernoon.com/python-code-optimization-tips-for-developers-6vjjw3zjq
+https://www.techbeamers.com/python-code-optimization-tips-tricks/
+
+
+
+
+
+#######deployment in AWS
+
+https://www.youtube.com/watch?v=oOqqwYI60FI
+https://www.youtube.com/watch?v=6cg5ERPQ2v8
+https://www.youtube.com/watch?v=KFuc2KWrTHs
+
+###########How to create fully automated ML workflows with Amazon SageMaker Pipelines
+https://www.youtube.com/watch?v=W7uabCTfLrg
+
+
+
+
+
+##################Call an Amazon SageMaker model endpoint using Amazon API Gateway and AWS Lambda#############
+
+
+https://www.youtube.com/watch?v=i6FcFZyy2N0&t=403s
+
+
+
+
+################NLP############################
+
+########text summarization#############
+
+https://www.machinecurve.com/index.php/2020/12/21/easy-text-summarization-with-huggingface-transformers-and-machine-learning/
+
+https://towardsdatascience.com/setting-up-a-text-summarisation-project-introduction-526622eea4a8
+
+https://towardsdatascience.com/entity-level-factual-consistency-in-abstractive-text-summarization-cb19e8a48397
+
+
+
+########text summarization using BART #############
+
+
+https://www.youtube.com/watch?v=8F0Lx53XO3w
+https://www.youtube.com/watch?v=fgmA9am9qCo
+
+
+
+
+
+###############Keras########
+
+https://machinelearningmastery.com/how-to-load-convert-and-save-images-with-the-keras-api/
+
+
+####Image captioning###########
+
+https://medium.com/swlh/automatic-image-captioning-using-deep-learning-5e899c127387
+https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/
+https://medium.com/swlh/image-captioning-using-attention-mechanism-f3d7fc96eb0e
+
+###Ecommerce products caption and image crawled
+http://vision.is.tohoku.ac.jp/~kyamagu/papers/yashima2016learning.pdf
+
+
+############Blue Score #############
+https://towardsdatascience.com/bleu-bilingual-evaluation-understudy-2b4eab9bcfd1
+https://machinelearningmastery.com/calculate-bleu-score-for-text-python/
+
+
+#######Greedy and beam Search ###############
+
+https://towardsdatascience.com/foundations-of-nlp-explained-visually-beam-search-how-it-works-1586b9849a24
+
+
+
+
+
+
+######Creating text encoding features NLP countvectorizer,tfidfvectorizer#############
+
+https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/
+
+###Word Embedding techniques########
+
+https://www.kdnuggets.com/2021/11/guide-word-embedding-techniques-nlp.html
+https://kavita-ganesan.com/how-to-use-countvectorizer/#.YglEgDYzb6B
+https://machinelearningmastery.com/develop-word-embeddings-python-gensim/
+https://machinelearningmastery.com/what-are-word-embeddings/
+https://www.analyticsvidhya.com/blog/2021/06/part-7-step-by-step-guide-to-master-nlp-word-embedding/
+
+
+#####topic modelling LDA############
+
+
+https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+https://www.analyticsvidhya.com/blog/2021/07/topic-modelling-with-lda-a-hands-on-introduction/
+https://www.analyticsvidhya.com/blog/2021/05/topic-modelling-in-natural-language-processing/
+
+
+#####topic modelling LSA############
+https://www.analyticsvidhya.com/blog/2021/06/part-16-step-by-step-guide-to-master-nlp-topic-modelling-using-lsa/
+https://towardsdatascience.com/2-latent-methods-for-dimension-reduction-and-topic-modeling-20ff6d7d547#:~:text=Both%20LSA%20and%20LDA%20have,LDA%20solves%20topic%20modeling%20problems.&text=It%20is%20critical%20part%20when%20you%20use%20LSA%2C%20LSI%20and%20LDA.
+
+
+### Topic model evaluation ##########
+https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0#:~:text=Topic%20Coherence%20measures%20score%20a,are%20artifacts%20of%20statistical%20inference.
+
+https://highdemandskills.com/topic-model-evaluation/
+
+
+####drawbacks of LSTM #########
+
+https://www.geeksforgeeks.org/understanding-of-lstm-networks/
+
+
+####BERT#########
+https://www.thepythoncode.com/article/pretraining-bert-huggingface-transformers-in-python
+https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
+
+
+#### BERT pre-training and from scratch#########
+
+https://www.thepythoncode.com/article/finetuning-bert-using-huggingface-transformers-python
+https://www.thepythoncode.com/article/pretraining-bert-huggingface-transformers-in-python
+
+
+
+
+###Best link to understand  attention,BERT and transformer#########
+
+https://towardsdatascience.com/breaking-bert-down-430461f60efb
+
+
+### BERT limitations######
+https://medium.com/dair-ai/bert-is-extremely-inefficient-this-is-how-to-solve-it-688b09350f10
+
+
+
+
+
+https://workera.ai/resources/data-science-case-study-interview
+https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc   -Marketting automation 
+
+
+
+######Logistic Regression#########
+https://www.analyticsvidhya.com/blog/2021/07/an-introduction-to-logistic-regression/
+https://towardsai.net/p/machine-learning/logistic-regression-with-mathematics
+
+##why can not use linear regression for classification problems####
+
+https://www.analyticsvidhya.com/blog/2020/10/demystification-of-logistic-regression/
+analyticsvidhya.com/blog/2021/09/guide-for-building-an-end-to-end-logistic-regression-model/
+
+
+#########Linear Regression ############
+
+https://www.analyticsvidhya.com/blog/2021/10/everything-you-need-to-know-about-linear-regression/
+https://towardsdatascience.com/linear-regression-modeling-and-assumptions-dcd7a201502a
+
+####/improve-your-regression-model-using-5-tips-that-no-one-talks-about
+
+https://medium.datadriveninvestor.com/improve-your-regression-model-using-5-tips-that-no-one-talks-about-a0f21eaeb595
+
+######MSE or R Squared which one to use ##########
+https://vitalflux.com/mean-square-error-r-squared-which-one-to-use/
+
+
+###VIF#####
+https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/
+
+
+
+https://towardsdatascience.com/linear-regression-modeling-and-assumptions-dcd7a201502a
+
+Multicollinearity can be detected using the Variance Inflation Factor (VIF). VIF of any predictor is the ratio of variance of its estimated coefficient in the full model to the variance of its estimated coefficient when fit on the outcome only by itself (as in simple linear regression).
+
+###Non constant error variance. heteroscedasticity##############
+
+https://statisticsbyjim.com/regression/heteroscedasticity-regression/
+https://www.statology.org/constant-variance-assumption/
+
+
+#########when to use RMSE and MAE for loss function #######
+https://medium.com/analytics-vidhya/mae-mse-rmse-coefficient-of-determination-adjusted-r-squared-which-metric-is-better-cd0326a5697e
+
+
+
+###feature engineering #######
+https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114
+
+
+### when to use  normalisation and standardisation
+
+https://towardsai.net/p/data-science/how-when-and-why-should-you-normalize-standardize-rescale-your-data-3f083def38ff
+
+
+###Data Imbalance ######
+
+https://neptune.ai/blog/how-to-deal-with-imbalanced-classification-and-regression-data
+
+https://analyticsindiamag.com/5-important-techniques-to-process-imbalanced-data-in-machine-learning/
+https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/
+
+
+####ROC curve and Precision recall  curve..when to use when ###
+
+https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
+
+
+### RandomisedsearchCV and GridSearchCV for hyperparameter tuning#######
+https://machinelearningmastery.com/hyperparameter-optimization-with-random-search-and-grid-search/
+
+###PCA ########
+
+https://www.analyticsvidhya.com/blog/2021/09/pca-and-its-underlying-mathematical-principles/
+https://medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d#:~:text=t%2DSNE%20is%20also%20a,large%20pairwise%20distance%20maximize%20variance.&text=It%20takes%20a%20set%20of,it%20into%20low%20dimensional%20data.
+https://www.analyticsvidhya.com/blog/2017/01/t-sne-implementation-r-python/
+
+####PCA and TSNA difference#########
+
+https://www.geeksforgeeks.org/difference-between-pca-vs-t-sne/
+
+
+
+###Categorial Encoding techniques and hashing encoding techniques#########
+
+https://www.analyticsvidhya.com/blog/2020/08/types-of-categorical-data-encoding/
+
+
+### CrossValidation and Nested Cross validation#########
+
+https://towardsdatascience.com/5-reasons-why-you-should-use-cross-validation-in-your-data-science-project-8163311a1e79
+https://learn.g2.com/cross-validation
+
+
+https://www.analyticsvidhya.com/blog/2021/05/4-ways-to-evaluate-your-machine-learning-model-cross-validation-techniques-with-python-code/
+https://www.analyticsvidhya.com/blog/2021/03/a-step-by-step-guide-to-nested-cross-validation/
+https://vitalflux.com/python-nested-cross-validation-algorithm-selection/
+https://mlfromscratch.com/nested-cross-validation-python-code/#/
+
+
+
+#########model Explanability LIME #########
+
+https://www.analyticsvidhya.com/blog/2019/08/decoding-black-box-step-by-step-guide-interpretable-machine-learning-models-python/
+https://www.analyticsvidhya.com/blog/2017/06/building-trust-in-machine-learning-models/
+
+
+#######TimeSeries forcasting ###########
+
+https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/
+https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-to-time-series-analysis/
+
+https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+https://towardsdatascience.com/time-series-forecasting-arima-models-7f221e9eee06
+https://www.analyticsvidhya.com/blog/2021/07/abc-of-time-series-forecasting/
+
+
+#####SARIMA
+https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/
+
+##gridsearch ARIMA##
+
+https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/
+
+##auto arima###
+https://towardsdatascience.com/time-series-forecasting-using-auto-arima-in-python-bb83e49210cd
+
+
+###propphet#########
+
+https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/
+
+#########Compare ARIMA and LSTM###########
+
+LSTM works better if we are dealing with huge amount of data and enough training data is available, while ARIMA is better for smaller datasets (is this correct?)
+ARIMA requires a series of parameters (p,q,d) which must be calculated based on data, while LSTM does not require setting such parameters. However, there are some hyperparameters we need to tune for LSTM.
+EDIT: One major difference between the two that I noticed while reading a great article here, is that ARIMA could only perform well on stationary time series (where there is no seasonality, trend and etc.) and you need to take care of that if want to use ARIMA
+
+
+
+############COURSERA Model Deployment Courses
+https://www.coursera.org/learn/deploying-machine-learning-models-in-production/home/week/1
+https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome
+
+
+### Data and concept Drift######
+
+https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb
+https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+
+
+
+#########PySpark :parallelization of bigdata#################
+
+https://sparkbyexamples.com/pyspark-tutorial/#features
+https://learning.oreilly.com/videos/spark-ray-and/9780136805922/
+
+####deciding number of partitions in spark ##########
+https://www.projectpro.io/article/how-data-partitioning-in-spark-helps-achieve-more-parallelism/297
+
+
+#########Cloud Read########
+
+Augmented AI,AWS Athena,AWS lambda Services > trigger Pagemaker instance>
+
+
+As soon new files comes in S3, was lambda triggered and trigger pagemaker instance 
+
+As new records in S3 bucket are placed then AWS triggers and initiates model retraining 
+
+
+
+
+#####SMOTE#########
+https://analyticsindiamag.com/how-can-smote-technique-improve-the-performance-of-weak-learners/
+
+
+
+########training-serving skew#############
+ 
+Training-serving skew is a difference between performance during training and performance during serving. This skew can be caused by: A discrepancy between how you handle data in the training and serving pipelines. A change in the data between when you train and when you serve.18-Jul-2022
+
+
+
+
+
+#######Pyspark#######
+
+https://sparkbyexamples.com/pyspark-tutorial/.  - best for pyspark inbuilt api's
+https://www.analyticsvidhya.com/blog/2019/11/build-machine-learning-pipelines-pyspark/
+https://www.analyticsvidhya.com/blog/2016/09/comprehensive-introduction-to-apache-spark-rdds-dataframes-using-pyspark/
+https://thenewstack.io/the-good-bad-and-ugly-apache-spark-for-data-science-work/
+https://towardsdatascience.com/strategies-of-spark-join-c0e7b4572bcf
+
+https://medium.com/swlh/pyspark-eda-basics-practical-parallel-processing-f852a151c930
+
+
+########Creating a Spark job using Pyspark and executing it in AWS EMR############
+https://kulasangar.medium.com/creating-a-spark-job-using-pyspark-and-executing-it-in-aws-emr-70dba5e98a75 
+
+
+
+#####Train an ML Model using Apache Spark in EMR and deploy in SageMaker#################
+
+https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-python-sdk/sparkml_serving_emr_mleap_abalone/sparkml_serving_emr_mleap_abalone.html
+
+
+##### scale big ML applications##########
+https://neptune.ai/blog/how-to-scale-ml-projects
+https://www.codementor.io/blog/scalable-ml-models-6rvtbf8dsd
+https://towardsdatascience.com/machine-learning-with-big-data-86bcb39f2f0b
+
+
+
+########ML Pipelines in AWS coursera,featurestore,model train debug deploy automate everything#######
+https://www.coursera.org/learn/ml-pipelines-bert
+
+
+
+####### ML design architect questions######
+
+https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7
+http://patrickhalina.com/posts/ml-systems-design-interview-guide/
+https://towardsdatascience.com/what-is-machine-learning-system-design-interview-and-how-to-prepare-for-it-537d1271d754
+https://towardsdatascience.com/how-to-answer-any-machine-learning-system-design-interview-question-a98656bb7ff0       - good one
+https://vitalflux.com/data-science-architect-interview-questions/.  - good one
+
+
+
+##########how-to-monitor-your-models-in-production-guide::: Population stability Index PSI #################
+
+https://neptune.ai/blog/how-to-monitor-your-models-in-production-guide
+https://towardsdatascience.com/psi-and-csi-top-2-model-monitoring-metrics-924a2540bed8
+
+https://towardsdatascience.com/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78
+
+
+############MLOPS.  In AWS ###############
+
+########Ml Ops Sagemaker Studio#########
+
+https://www.youtube.com/watch?v=iNoeULI7nB4
+
+#########################
+1. Model Development and Evaluation using AWS Sagemaker Studio.
+
+2. Model Deployment using AWS Lambda and REST API’s
+https://towardsdatascience.com/a-practical-guide-to-mlops-in-aws-sagemaker-part-i-1d28003f565
+https://towardsdatascience.com/a-practical-guide-to-mlops-using-aws-sagemaker-part-ii-c5159b4b51aa
+
+
+https://medium.com/@pradeep.natarajan2012/mlops-with-amazon-web-services-754758ecc1df
+
+
+
+
+######################AWS Sagemkaer Documentation###########
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/deployment-guardrails.html
+
+
+Blue/Green: All At Once shifts all of your endpoint traffic from the blue fleet to the green fleet. Once the traffic shifts to the green fleet, your pre-specified Amazon CloudWatch alarms begin monitoring the green fleet for a set amount of time (the baking period). If no alarms trip during the baking period, then SageMaker terminates the blue fleet.
+
+Blue/Green: Canary lets you shift one small portion of your traffic (a canary) to the green fleet and monitor it for a baking period. If the canary succeeds on the green fleet, then SageMaker shifts the rest of the traffic from the blue fleet to the green fleet before terminating the blue fleet.
+
+Blue/Green: Linear provides even more customization over the number of traffic-shifting steps and the percentage of traffic to shift for each step. While canary shifting lets you shift traffic in two steps, linear shifting extends this to n linearly spaced steps.
+
+
+############Sagemaker inference-cost-optimization#############
+
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/inference-cost-optimization.html
+
+
+
+###Feature Store Online/ofline########
+https://towardsdatascience.com/do-you-really-need-a-feature-store-e59e3cc666d3
+https://towardsdatascience.com/real-time-feature-engineering-with-a-feature-store-2d51ce925734
+
+
+
+
+########ML Model Testing Writing Unit and Integration test cases ############
+
+https://neptune.ai/blog/automated-testing-machine-learning - BEST
+https://towardsdatascience.com/checklist-behavioral-testing-of-nlp-models-491cf11f0238 Good
+https://madewithml.com/courses/mlops/testing/.  - BEST 
+https://deepchecks.com/how-to-test-machine-learning-models/
+https://deepchecks.com/machine-learning-testing-principles-making-sure-your-model-does-what-you-think-it-should-do/
+https://www.jeremyjordan.me/testing-ml/
+
+https://www.analyticsvidhya.com/blog/2022/01/writing-test-cases-for-machine-learning/
+https://towardsdatascience.com/unit-testing-in-deep-learning-b91d366e4862
+https://medium.com/pykes-technical-notes/testing-machine-learning-systems-unit-tests-38696264ee04
+https://www.xenonstack.com/blog/machine-learning-unit-testing
+
+
+######## Regularization###############
+
+
+https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/
+
+https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/
+
+
+
+#####Bias Variance ##########
+
+https://www.javatpoint.com/bias-and-variance-in-machine-learning
+
+
+
+
+#######designing A/B testing ################
+
+https://aws.amazon.com/blogs/machine-learning/a-b-testing-ml-models-in-production-using-amazon-sagemaker/
+
+https://www.analyticsvidhya.com/blog/2020/10/ab-testing-data-science/
+
+
+
+
+
+
+
+
+
+
+
+####### Business Case studies Interview questions################
+
+
+https://towardsdatascience.com/the-ultimate-guide-to-cracking-business-case-interviews-for-data-scientists-part-1-cb768c37edf4
+https://www.interviewquery.com/p/data-science-case-study-interview-questions
+https://www.projectpro.io/article/data-science-case-study-interview-questions-and-answers/557
+https://medium.com/datainterview/crack-the-data-scientist-case-interview-by-an-ex-google-data-scientist-f44da750cffe
+
+
+https://www.tredence.com/case-studies/rebate-analytics-solution
+https://www.tredence.com/case-studies/developed-a-scalable-web-based-rebate-analytics-solution
+https://www.tredence.com/products/healthem-ai#contact
+https://www.tredence.com/assets/case-studies/developing_a_customer_data_platform.pdf
+https://www.tredence.com/assets/case-studies/improving_demand_forecast_accuracy.pdf
+
+
+
+
+list_numbers=[2,3,4,5,6]
+For i in list_numbers:
+if (num%2==0):
+    print "The number is even"
+    print num*num
+else:
+    print "The number is odd"
+    print num*num
+
+
+
+
+
+
+
+########AWS Services###############
+
+https://towardsdatascience.com/5-aws-services-every-data-scientist-should-use-1fdbf9a784d2
+
+1.) AWS EMR
+
+https://www.youtube.com/watch?v=qLnamoLaIzU
+
+####AWS Glue##########
+
+2.)https://www.youtube.com/watch?v=Qpv7BzOM-UI
+
+
+#######AWS step functions##########
+
+https://www.youtube.com/watch?v=zCIpWFYDJ8s
+https://www.youtube.com/watch?v=s0XFX3WHg0w
+
+##Amazon quickSight############
+https://www.youtube.com/watch?v=WaOrQtxLXfs
+
+
+
+
+###########designing-machine-learning################
+
+https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch05.html#discretization
+
+
+####why ensembling  improves ################
+
+We’ll go over an example to give you the intuition of why ensembling works. Imagine you have three email spam classifiers, each with an accuracy of 70%. Assuming that each classifier has an equal probability of making a correct prediction for each email, and that these three classifiers are not correlated, we’ll show that by taking the majority vote of these three classifiers, we can get an accuracy of 78.4%.
+
+For each email, each classifier has a 70% chance of being correct. The ensemble will be correct if at least two classifiers are correct. Table 6-1 shows the probabilities of different possible outcomes of the ensemble given an email. This ensemble will have an accuracy of 0.343 + 0.441 = 0.784, or 78.4%.
+
+Table 6-1. Possible outcomes of the ensemble that takes the majority vote from three classifiers
+Outputs of three models	Probability	Ensemble’s output
+All three are correct	0.7 * 0.7 * 0.7 = 0.343	Correct
+Only two are correct	(0.7 * 0.7 * 0.3) * 3 = 0.441	Correct
+Only one is correct	(0.3 * 0.3 * 0.7) * 3 = 0.189	Wrong
+None are correct	0.3 * 0.3 * 0.3 = 0.027	Wrong
+This calculation only holds if the classifiers in an ensemble are uncorrelated. If all classifiers are perfectly correlated—all three of them make the same prediction for every email—the ensemble will have the same accuracy as each individual classifier. When creating an ensemble, the less correlation there is among base learners, the better the ensemble will be. Therefore, it’s common to choose very different types of models for an ensemble. For example, you might create an ensemble that consists of one transformer model, one recurrent neural network, and one gradient-boosted tree.
+
+
+
+
+######Discretization##########
+
+https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch05.html#discretization
+
+
+
+Discretization
+This technique is included in this book for completeness, though in practice, I’ve rarely found discretization to help. Imagine that we’ve built a model with the data in Table 5-2. During training, our model has seen the annual income values of “150,000,” “50,000,” “100,000,” and so on. During inference, our model encounters an example with an annual income of “9,000.50.”
+
+Intuitively, we know that $9,000.50 a year isn’t much different from $10,000/year, and we want our model to treat both of them the same way. But the model doesn’t know that. Our model only knows that 9,000.50 is different from 10,000, and it will treat them differently.
+
+Discretization is the process of turning a continuous feature into a discrete feature. This process is also known as quantization or binning. This is done by creating buckets for the given values. For annual income, you might want to group them into three buckets as follows:
+
+Lower income: less than $35,000/year
+
+Middle income: between $35,000 and $100,000/year
+
+Upper income: more than $100,000/year
+
+Instead of having to learn an infinite number of possible incomes, our model can focus on learning only three categories, which is a much easier task to learn. This technique is supposed to be more helpful with limited training data.
+
+Even though, by definition, discretization is meant for continuous features, it can be used for discrete features too. The age variable is discrete, but it might still be useful to group the values into buckets such as follows:
+
+Less than 18
+
+Between 18 and 22
+
+Between 22 and 30
+
+Between 30 and 40
+
+Between 40 and 65
+
+Over 65
+
+The downside is that this categorization introduces discontinuities at the category boundaries—$34,999 is now treated as completely different from $35,000, which is treated the same as $100,000. Choosing the boundaries of categories might not be all that easy. You can try to plot the histograms of the values and choose the boundaries that make sense. In general, common sense, basic quantiles, and sometimes subject matter expertise can help.
+
+
+
+### DISADVANTAGES OF ADDING MORE FEATURES IN MODEL ############
+
+Generally, adding more features leads to better model performance. In my experience, the list of features used for a model in production only grows over time. However, more features doesn’t always mean better model performance. Having too many features can be bad both during training and serving your model for the following reasons:
+
+The more features you have, the more opportunities there are for data leakage.
+
+Too many features can cause overfitting.
+
+Too many features can increase memory required to serve a model, which, in turn, might require you to use a more expensive machine/instance to serve your model.
+
+Too many features can increase inference latency when doing online prediction, especially if you need to extract these features from raw data for predictions online. We’ll go deeper into online prediction in Chapter 7.
+
+Useless features become technical debts. Whenever your data pipeline changes, all the affected features need to be adjusted accordingly. For example, if one day your application decides to no longer take in information about users’ age, all features that use users’ age need to be updated.
+
+
+
+###Feature geenralization##########
+
+https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch05.html#feature_generalization
+
+This rule of thumb is rough because some features can still be useful even if they are missing in most of your data. This is especially true when the missing values are not at random, which means having the feature or not might be a strong indication of its value. For example, if a feature appears only in 1% of your data, but 99% of the examples with this feature have POSITIVE labels, this feature is useful and you should use it.
+
+
+
+
+##########Here is a summary of best practices for feature engineering##########################
+
+
+Split data by time into train/valid/test splits instead of doing it randomly.
+
+If you oversample your data, do it after splitting.
+
+Scale and normalize your data after splitting to avoid data leakage.
+
+Use statistics from only the train split, instead of the entire data, to scale your features and handle missing values.
+
+Understand how your data is generated, collected, and processed. Involve domain experts if possible.
+
+Keep track of your data’s lineage.
+
+Understand feature importance to your model.
+
+Use features that generalize well.
+
+Remove no longer useful features from your models.
+
+
+
+#########data-normalization-before-or-after-train-test-split##############
+https://datascience.stackexchange.com/questions/54908/data-normalization-before-or-after-train-test-split
+
+
+Do Normalization after splitting into train and test/validation. The reason is to avoid any data leakage.
+
+Data Leakage: Data leakage is when information from outside the training dataset is used to create the model. This additional information can allow the model to learn or know something that it otherwise would not know and in turn invalidate the estimated performance of the mode being constructed.
+
+Normalization across instances should be done after splitting the data between training and test set, using only the data from the training set.
+
+This is because the test set plays the role of fresh unseen data, so it's not supposed to be accessible at the training stage. Using any information coming from the test set before or during training is a potential bias in the evaluation of the performance.
+
+[Precision thanks to Neil's comment] When normalising the test set, one should apply the normalization parameters previously obtained from the training set as-is. Do not recalculate them on the test set, because they would be inconsistent with the model and this would produce wrong predictions.
+
+
+
+####Data Leakage#############
+
+https://rakesh4423.medium.com/how-to-prevent-data-leakage-406fd77ecd0d
+https://www.analyticsvidhya.com/blog/2021/07/data-leakage-and-its-effect-on-the-performance-of-an-ml-model/
+https://towardsdatascience.com/preventing-data-leakage-in-your-machine-learning-model-9ae54b3cd1fb
+
+
+
+Data leakage happens when Feature Scaling is done before splitting the dataset. Standardizing and Normalizing are done by finding the mean, variance, min, max, and standard deviation. So when feature scaling is done before the splitting, we are finding mean and variance for the whole dataset. This is where the leakage happens.
+
+Leakage during Data preprocessing
+While solving a Machine learning problem statement, firstly we do the data cleaning and preprocessing which involves the following steps:
+
+Evaluating the parameters for normalizing or rescaling features
+Finding the minimum and maximum values of a particular feature
+Normalize the particular feature in our dataset
+Removing the outliers
+Fill or completely remove the missing data in our dataset
+The above-described steps should be done using only the training set. If we use the entire dataset to perform these operations, data leakage may occur. Applying preprocessing techniques to the entire dataset will cause the model to learn not only the training set but also the test set. As we all know that the test set should be new and previously unseen for any model.
+
+
+
+
+
+
+###########Things to Cover#######################
+
+
+https://www.linkedin.com/in/saurabh-kumar-0407863/details/experience/
+
+https://www.linkedin.com/in/aishwarya-chowdhary-983a25a1/
+
+https://www.linkedin.com/in/sahil-gupta-78745084/
+
+
+https://www.linkedin.com/in/praveen-sharma-89b61a1b/
+
+
+1.) ▪ Building a self-served Machine Learning model Retraining platform which can utilise Batch feeds and inference ML Models using state of the art algorithms like XGBoost, LightGBM etc
+
+2.) ▪ Optimization of workflows to meet the need to scale up the execution of different algorithms on big data.
+
+3.) Making Strategies for credit card limit assignment to different segments to ensure low delinquency rate.
+Performing acquisition quality monitoring(3M and 6M 30+ bad rate and delinquency) to identify early warning signals and recommend corrective measures.
+Closely monitoring de-dup applications every month to identify fraud/duplicate applicants. 
+
+
+Customer Engagement Score:
+o The project involved tracking affinity of a customer to our Barclays brand. It drives customers with
+Consideration, Advocacy and Loyalty to Barclays.
+o It is represented as a wheel with a blended score across 4 quadrants i.e. transactional score,
+relationship score, channel usage score & product holding score.
+o The scores can be tracked over time. It can be drilled down into its 4 quadrants to understand the
+score drivers. The distribution of engaged customers by sub-segments can also be monitored
+
+Ad-hoc Projects:
+o Switchers and New to Bank deep dive analysis: The objective of this analysis was to understand if
+switch in customers are more valuable to the bank. The analysis focused on comparing new to bank
+customers through switch in and direct new to bank customers. This was done to inform the design
+of switcher offer incentive and customer acquisition strategy.
+o Focus Drivers Analysis: Built Decision Tree model to understand the key drivers supporting customers
+upgrade to focus or retain in focus and their influence on customers’ likelihood to become focus
+within a defined period of time. This was done for targeting purpose.
+o Premier Commercial Segmentation: Developed Commercial segmentation base on off-us
+opportunity, on-usvalue and engagement score with objective of enabling more targeted approach
+through contact.
+
+Other Initiatives at work:
+o Successfully delivered trainings on ‘Introduction to Machine learning’ and ‘EDA’ along with
+banking applications to the entire team in Noida as well as UK counterparts.
+o Apart from my projects, I have managed to prepare a tool on excel which enables new joiners or for any
+team member to understand key definitions, important concepts, commonly used codes and datasets
+
+
+
+. Fraud detection and blocking fraudulent merchants proactively
+2. Segmentation of customers who are visiting to branch into 2 cohorts: those who CAN/CAN’T
+switch to digital channels
+3. Process Optimization of Direct Debit Cancellation at the time of customer’s bereavement
+4. Debit Card Controls Analysis to understand whether controls provided to customers for
+secure online transaction are effective and secure
+5. Debit Cards Portfolio analysis to understand bank’s readiness for seamless customer’s
+contactless journey
+
+
+
+
+######## ML DS Interview questions ##################
+
+https://www.linkedin.com/posts/activity-6952040254644113408-97DZ/?utm_source=linkedin_share&utm_medium=member_desktop_web
+
+
+
+
+#### NLP things to cover##########
+
+Creating knowledge graph> Json parsed file> Policy PDF documents
+
+
+Intent classification>NER>knowledge graph query formation (graph query engine)
+
+
+Marketing Mix Optimization, Price Optimization,Propensity Modeling,
+
+
+
+
+
+##########PAYTM JD ###############
+Design and evaluate novel approaches for handling high-volume real-time data streams in a machine learning environment.
+Develop a feedback system to improve the selection of features for the algorithms.
+You understand what it takes to deliver ML predictions in real time online applications
+Having experience in optimization algorithms.
+
+
+
+
+###############statistics and Probablity######################
+
+difference between standard deviation and variance
+
+Standard deviation is the spread of a group of numbers from the mean. The variance measures the average degree to which each point differs from the mean. While standard deviation is the square root of the variance, variance is the average of all data points within a group.
+
+https://datasciencestunt.com/standard-deviation-and-variance-in-statistics/
+https://keydifferences.com/difference-between-variance-and-standard-deviation.html
+
+
+#########Hypothesis testing and P value ############
+
+https://www.analyticsvidhya.com/blog/2021/09/hypothesis-testing-in-machine-learning-everything-you-need-to-know/
+https://www.analyticsvidhya.com/blog/2020/07/hypothesis-testing-68351/
+
+
+
+
+######covariance and correlation difference #############
+https://careerfoundry.com/en/blog/data-analytics/covariance-vs-correlation/
+https://www.simplilearn.com/covariance-vs-correlation-article#:~:text=Covariance%20and%20correlation%20are%20two,the%20two%20variables%20are%20related.
+
+
+#####geenral statistics links###################
+
+https://towardsdatascience.com/probability-and-statistics-for-data-science-part-1-3eed6051c40d
+https://medium.com/technology-nineleaps/basics-of-statistics-for-machine-learning-engineers-ii-d25c5a5dac67
+
+
+
+#### distance measures in ML################
+
+https://vitalflux.com/different-types-of-distance-measures-in-machine-learning/
+https://medium.com/@kunal_gohrani/different-types-of-distance-metrics-used-in-machine-learning-e9928c5e26c7
+https://towardsdatascience.com/how-to-decide-the-perfect-distance-metric-for-your-machine-learning-model-2fa6e5810f11
+
+############Naive Bayes and Conditional probablity#############
+
+
+https://www.analyticsvidhya.com/blog/2021/09/naive-bayes-algorithm-a-complete-guide-for-data-science-enthusiasts/
+https://blog.floydhub.com/naive-bayes-for-machine-learning/
+https://medium.com/mlearning-ai/probability-the-bedrock-of-machine-learning-algorithms-a1af0388ea75
+
+##### naive Bayespractical explanation############
+
+https://www.kdnuggets.com/2019/10/bayes-theorem-applied-machine-learning.html
+
+
+########6 Common Probability Distributions############
+https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/
+https://vitalflux.com/types-probability-distributions-defined-examples/
+https://machinelearningknowle
+
+########Cdntral limit theoram##############
+
+https://www.analyticsvidhya.com/blog/2019/05/statistics-101-introduction-central-limit-theorem/
+
+##3 Udemy course A rigorous and engaging deep-dive into statistics and machine-learning, with hands-on applications in Python and MATLAB.##############
+
+measure of centrak tendency(mean,median,mode), probablity and odd ratio,probably mass fucntions and probablity density functions,cumulative dsitribution functions
+,Monto Corolo Sampling,Expected value
+
+
+
+
+
+#############FAAANG Interview Links##########################
+
+###sql########
+https://datalemur.com/questions
+
+
+
+####general interview #########
+
+https://towardsdatascience.com/30-data-science-interview-questions-from-faang-tech-giants-1eea134db7c7
+https://faangpath.com/blog/amazon-data-scientist-interview/
+
