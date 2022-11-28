@@ -223,7 +223,7 @@ https://www.analyticsvidhya.com/blog/2017/10/svm-skilltest/
 
 ### Naive Bayes Algo
  
-https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c BEST
+https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c
 https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
 https://www.machinelearningplus.com/predictive-modeling/how-naive-bayes-algorithm-works-with-example-and-full-code/
 
