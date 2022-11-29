@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-file_path = 'Notes\ML_Interview_links.txt'
+file_path = r'Notes\clustering2.txt'
 lines_list = []
 
 def get_text(text:str, regex_exp : Optional[str] = r'\w+')->str:
