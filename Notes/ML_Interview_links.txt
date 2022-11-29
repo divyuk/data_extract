@@ -1,4 +1,4 @@
-Comparing the Python Comparison Operators
+##Comparing the Python Comparison Operators
 
 https://realpython.com/python-is-identity-vs-equality/
 
@@ -47,8 +47,6 @@ https://www.youtube.com/watch?v=i6FcFZyy2N0&t=403s
 
 
 
-
-################NLP############################
 
 ########text summarization#############
 
@@ -160,7 +158,7 @@ https://medium.com/dair-ai/bert-is-extremely-inefficient-this-is-how-to-solve-it
 
 
 
-
+### DS case study
 https://workera.ai/resources/data-science-case-study-interview
 https://eng.lyft.com/lyft-marketing-automation-b43b7b7537cc   -Marketting automation 
 
@@ -295,8 +293,7 @@ https://towardsdatascience.com/time-series-forecasting-using-auto-arima-in-pytho
 
 https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/
 
-#########Compare ARIMA and LSTM###########
-
+Compare ARIMA and LSTM
 LSTM works better if we are dealing with huge amount of data and enough training data is available, while ARIMA is better for smaller datasets (is this correct?)
 ARIMA requires a series of parameters (p,q,d) which must be calculated based on data, while LSTM does not require setting such parameters. However, there are some hyperparameters we need to tune for LSTM.
 EDIT: One major difference between the two that I noticed while reading a great article here, is that ARIMA could only perform well on stationary time series (where there is no seasonality, trend and etc.) and you need to take care of that if want to use ARIMA
@@ -325,8 +322,7 @@ https://learning.oreilly.com/videos/spark-ray-and/9780136805922/
 https://www.projectpro.io/article/how-data-partitioning-in-spark-helps-achieve-more-parallelism/297
 
 
-#########Cloud Read########
-
+Cloud Read
 Augmented AI,AWS Athena,AWS lambda Services > trigger Pagemaker instance>
 
 
@@ -342,7 +338,7 @@ https://analyticsindiamag.com/how-can-smote-technique-improve-the-performance-of
 
 
 
-########training-serving skew#############
+training-serving skew
  
 Training-serving skew is a difference between performance during training and performance during serving. This skew can be caused by: A discrepancy between how you handle data in the training and serving pipelines. A change in the data between when you train and when you serve.18-Jul-2022
 
@@ -407,10 +403,7 @@ https://towardsdatascience.com/using-statistical-distance-metrics-for-machine-le
 
 https://www.youtube.com/watch?v=iNoeULI7nB4
 
-#########################
-1. Model Development and Evaluation using AWS Sagemaker Studio.
-
-2. Model Deployment using AWS Lambda and REST API’s
+######################### Model Deployment using AWS Lambda and REST API’s
 https://towardsdatascience.com/a-practical-guide-to-mlops-in-aws-sagemaker-part-i-1d28003f565
 https://towardsdatascience.com/a-practical-guide-to-mlops-using-aws-sagemaker-part-ii-c5159b4b51aa
 
@@ -512,17 +505,6 @@ https://www.tredence.com/assets/case-studies/improving_demand_forecast_accuracy.
 
 
 
-list_numbers=[2,3,4,5,6]
-For i in list_numbers:
-if (num%2==0):
-    print "The number is even"
-    print num*num
-else:
-    print "The number is odd"
-    print num*num
-
-
-
 
 
 
@@ -531,7 +513,7 @@ else:
 
 https://towardsdatascience.com/5-aws-services-every-data-scientist-should-use-1fdbf9a784d2
 
-1.) AWS EMR
+######1.) AWS EMR
 
 https://www.youtube.com/watch?v=qLnamoLaIzU
 
@@ -556,7 +538,7 @@ https://www.youtube.com/watch?v=WaOrQtxLXfs
 https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch05.html#discretization
 
 
-####why ensembling  improves ################
+why ensembling  improves
 
 We’ll go over an example to give you the intuition of why ensembling works. Imagine you have three email spam classifiers, each with an accuracy of 70%. Assuming that each classifier has an equal probability of making a correct prediction for each email, and that these three classifiers are not correlated, we’ll show that by taking the majority vote of these three classifiers, we can get an accuracy of 78.4%.
 
@@ -612,7 +594,7 @@ The downside is that this categorization introduces discontinuities at the categ
 
 
 
-### DISADVANTAGES OF ADDING MORE FEATURES IN MODEL ############
+DISADVANTAGES OF ADDING MORE FEATURES IN MODEL
 
 Generally, adding more features leads to better model performance. In my experience, the list of features used for a model in production only grows over time. However, more features doesn’t always mean better model performance. Having too many features can be bad both during training and serving your model for the following reasons:
 
@@ -632,13 +614,12 @@ Useless features become technical debts. Whenever your data pipeline changes, al
 
 https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/ch05.html#feature_generalization
 
-This rule of thumb is rough because some features can still be useful even if they are missing in most of your data. This is especially true when the missing values are not at random, which means having the feature or not might be a strong indication of its value. For example, if a feature appears only in 1% of your data, but 99% of the examples with this feature have POSITIVE labels, this feature is useful and you should use it.
+Feature Generalization : This rule of thumb is rough because some features can still be useful even if they are missing in most of your data. This is especially true when the missing values are not at random, which means having the feature or not might be a strong indication of its value. For example, if a feature appears only in 1% of your data, but 99% of the examples with this feature have POSITIVE labels, this feature is useful and you should use it.
 
 
 
 
-##########Here is a summary of best practices for feature engineering##########################
-
+Here is a summary of best practices for feature engineering
 
 Split data by time into train/valid/test splits instead of doing it randomly.
 
@@ -751,7 +732,7 @@ team member to understand key definitions, important concepts, commonly used cod
 
 
 
-. Fraud detection and blocking fraudulent merchants proactively
+1. Fraud detection and blocking fraudulent merchants proactively
 2. Segmentation of customers who are visiting to branch into 2 cohorts: those who CAN/CAN’T
 switch to digital channels
 3. Process Optimization of Direct Debit Cancellation at the time of customer’s bereavement
@@ -770,8 +751,7 @@ https://www.linkedin.com/posts/activity-6952040254644113408-97DZ/?utm_source=lin
 
 
 
-#### NLP things to cover##########
-
+NLP things to cover
 Creating knowledge graph> Json parsed file> Policy PDF documents
 
 
@@ -783,8 +763,7 @@ Marketing Mix Optimization, Price Optimization,Propensity Modeling,
 
 
 
-
-##########PAYTM JD ###############
+PAYTM JD
 Design and evaluate novel approaches for handling high-volume real-time data streams in a machine learning environment.
 Develop a feedback system to improve the selection of features for the algorithms.
 You understand what it takes to deliver ML predictions in real time online applications
@@ -850,7 +829,8 @@ https://machinelearningknowle
 
 https://www.analyticsvidhya.com/blog/2019/05/statistics-101-introduction-central-limit-theorem/
 
-##3 Udemy course A rigorous and engaging deep-dive into statistics and machine-learning, with hands-on applications in Python and MATLAB.##############
+
+3 Udemy course A rigorous and engaging deep-dive into statistics and machine-learning, with hands-on applications in Python and MATLAB.##############
 
 measure of centrak tendency(mean,median,mode), probablity and odd ratio,probably mass fucntions and probablity density functions,cumulative dsitribution functions
 ,Monto Corolo Sampling,Expected value
