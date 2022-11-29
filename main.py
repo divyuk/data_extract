@@ -68,6 +68,7 @@ for singleline in lines_list:
             
 append_text(space =" ", key="\nKEY POINTS\n")
 for sentence in sent_list:
-    if sentence != '\n':
+    sentence = sentence.strip()
+    if sentence != '':
         bullet+=1
         append_in_file(sentence,bullet)
