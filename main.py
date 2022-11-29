@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-file_path = 'Notes\clustering2.txt'
+file_path = 'Notes\ML_Interview_links.txt'
 lines_list = []
 
 def get_text(text:str, regex_exp : Optional[str] = r'\w+')->str:
@@ -14,14 +14,14 @@ def repr_html(url,text):
 
 def append_in_file(final_result,index):
     if final_result != '\n' and final_result != '':
-        with open('myfile.md', 'a') as write_file:
+        with open('myfile.md', 'a', encoding="utf8") as write_file:
             write_file.write(str(index) + ". ")
             write_file.write(final_result)
             write_file.write("\n") 
             final_result = ''
 
 def append_text(space:str, key : Optional[str] = ''):
-    with open('myfile.md', 'a') as write_file:
+    with open('myfile.md', 'a', encoding="utf8") as write_file:
         write_file.write(space)
         if key != '':
             write_file.write(key)
@@ -33,10 +33,12 @@ index_links = 0
 bullet = 0
 tabspace = "    "
 
-with open(file_path , 'r') as file:
-    for line in file.readlines():
-        lines_list.append(line)
-
+with open(file_path , 'r', encoding="utf8") as file:
+    try:
+        for line in file.readlines():
+            lines_list.append(line)
+    except Exception as e:
+        print(e)
 for singleline in lines_list:
     if '#' in singleline:
         final_heading = get_text(singleline)
