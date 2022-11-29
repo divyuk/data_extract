@@ -110,7 +110,7 @@ https://www.analyticsvidhya.com/blog/2019/10/building-image-classification-model
 https://medium.com/@akankshamalhotra24/introduction-to-libraries-of-nlp-in-python-nltk-vs-spacy-42d7b2f128f2
 
 
-text classification
+####text classification
 https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/
 
 https://github.com/NirantK/awesome-project-ideas#text
