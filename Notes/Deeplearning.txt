@@ -173,7 +173,7 @@ https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras/
 https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/
 https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/
 
-for rest api
+###for rest api
 https://www.pyimagesearch.com/2018/02/05/deep-learning-production-keras-redis-flask-apache/
 https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
@@ -184,26 +184,13 @@ In 2013 a variant of dropout is introduced called Drop connect. Instead of dropp
 
 
 
-##### difference between Vanila Gradient and SGD optimiser##############3
-
-Vanilla gradient descent only performs a weight update once for every epoch – in this example, we
-trained our model for 100 epochs, so only 100 updates took place. Depending on the initialisation
-of the weight matrix and the size of the learning rate, it’s possible that we may not be able to learn
-a model that can separate the points (even though they are linearly separable).
-
-For simple gradient descent, you are better off training for more epochs with a smaller learning
-rate to help overcome this issue. However, as we’ll see in the next section, a variant of gradient
-descent called Stochastic Gradient Descent performs a weight update for every batch of training
-data, implying there are multiple weight updates per epoch. This approach leads to a faster, more
-stable convergence.
-
-''
-## backpropogation####
-The backward pass where we compute the gradient of the loss function at the final layer (i.e.,
+difference between Vanila Gradient and SGD optimiser: Vanilla gradient descent only performs a weight update once for every epoch – in this example, we
+trained our model for 100 epochs, so only 100 updates took place. Depending on the initialisation of the weight matrix and the size of the learning rate, it’s possible that we may not be able to learn a model that can separate the points (even though they are linearly separable).
+For simple gradient descent, you are better off training for more epochs with a smaller learning rate to help overcome this issue. However, as we’ll see in the next section, a variant of gradient descent called Stochastic Gradient Descent performs a weight update for every batch of training data, implying there are multiple weight updates per epoch. This approach leads to a faster, more stable convergence.backpropogation:The backward pass where we compute the gradient of the loss function at the final layer (i.e.,
 predictions layer) of the network and use this gradient to recursively apply the chain rule to
 update the weights in our network (also known as the weight update phase).
 
-Backpropagation Summary
+Backpropagation Summary:
 In this section, we learned how to implement the backpropagation algorithm from scratch using
 Python. Backpropagation is a generalization of the gradient descent family of algorithms that is
 specifically used to train multi-layer feedforward networks.
@@ -221,10 +208,7 @@ differentiable, allowing the chain rule to be applied. Furthermore, any other la
 that require updates to their weights/parameters, must also be compatible with backpropagation as
 well.
 
-
-############CNN
-
-In traditional feedforward neural networks (like the ones we studied in Chapter 10), each
+CNN : In traditional feedforward neural networks (like the ones we studied in Chapter 10), each
 neuron in the input layer is connected to every output neuron in the next layer – we call this a fullyconnected
 (FC) layer. However, in CNNs, we don’t use FC layers until the very last layer(s) in the
 network. We can thus define a CNN as a neural network that swaps in a specialized “convolutional”
@@ -303,33 +287,32 @@ critical set of four as they define the actual architecture itself.
 
 
 We then have a kernel responsible for sharpening an image:
-55 # construct a sharpening filter
+55 construct a sharpening filter
 56 sharpen = np.array((
 57 [0, -1, 0],
 58 [-1, 5, -1],
 59 [0, -1, 0]), dtype="int")
 Then the Laplacian kernel used to detect edge-like regions:
 11.1 Understanding Convolutions 177
-61 # construct the Laplacian kernel used to detect edge-like
-62 # regions of an image
+61 construct the Laplacian kernel used to detect edge-like
+62 regions of an image
 63 laplacian = np.array((
 64 [0, 1, 0],
 65 [1, -4, 1],
 66 [0, 1, 0]), dtype="int")
 The Sobel kernels can be used to detect edge-like regions along both the x and y axis, respectively:
-68 # construct the Sobel x-axis kernel
+68 construct the Sobel x-axis kernel
 69 sobelX = np.array((
 70 [-1, 0, 1],
 71 [-2, 0, 2],
 72 [-1, 0, 1]), dtype="int")
-73
-74 # construct the Sobel y-axis kernel
+74 construct the Sobel y-axis kernel
 75 sobelY = np.array((
 76 [-1, -2, -1],
 77 [0, 0, 0],
 78 [1, 2, 1]), dtype="int")
 And finally, we define the emboss kernel:
-80 # construct an emboss kernel
+80 construct an emboss kernel
 81 emboss = np.array((
 82 [-2, -1, 0],
 83 [-1, 1, 1],
@@ -341,9 +324,9 @@ For a thorough treatment of how kernels are mathematically constructed and prove
 a given image processing operation, please refer to Szeliksi (Chapter 3) [124]. I also recommend
 using this excellent kernel visualization tool from Setosa.io [125].
 Given all these kernels, we can lump them together into a set of tuples called a “kernel bank”:
-86 # construct the kernel bank, a list of kernels we’re going to apply
-87 # using both our custom ‘convolve‘ function and OpenCV’s ‘filter2D‘
-88 # function
+86 construct the kernel bank, a list of kernels we’re going to apply
+87 using both our custom ‘convolve‘ function and OpenCV’s ‘filter2D‘
+88 function
 89 kernelBank = (
 90 ("small_blur", smallBlur),
 91 ("large_blur", largeBlur),
@@ -354,9 +337,7 @@ Given all these kernels, we can lump them together into a set of tuples called a
 96 ("emboss", emboss))
 
 
-#########Zero-padding###############
-
-As we know from Section 11.1.5, we need to “pad” the borders of an image to retain the original
+Zero-padding: As we know from Section 11.1.5, we need to “pad” the borders of an image to retain the original
 image size when applying a convolution – the same is true for filters inside of a CNN. Using
 zero-padding, we can “pad” our input along the borders such that our output volume size matches
 our input volume size. The amount of padding we apply is controlled by the parameter P.
@@ -380,8 +361,7 @@ layer, we need to ensure the following equation is an integer:
 If it is not an integer, then the strides are set incorrectly, and the neurons cannot be tiled such
 that they fit across the input volume in a symmetric way.
 
-Pooling Layers
-There are two methods to reduce the size of an input volume – CONV layers with a stride > 1 (which
+Pooling Layers: There are two methods to reduce the size of an input volume – CONV layers with a stride > 1 (which
 we’ve already seen) and POOL layers. It is common to insert POOL layers in-between consecutive
 CONV layers in a CNN architectures:
 INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC
@@ -397,9 +377,7 @@ common type of POOL layer is max pooling, although this trend is changing with t
 of more exotic micro-architectures.
 ####################################################################
 
-To POOL or CONV?
-
-In their 2014 paper, Striving for Simplicity: The All Convolutional Net, Springenberg et al. [127]
+To POOL or CONV?In their 2014 paper, Striving for Simplicity: The All Convolutional Net, Springenberg et al. [127]
 recommend discarding the POOL layer entirely and simply relying on CONV layers with a larger
 stride to handle downsampling the spatial dimensions of the volume. Their work demonstrated this
 approach works very well on a variety of datasets, including CIFAR-10 (small images, low number
@@ -412,8 +390,7 @@ meantime, it’s important that we study them, learn how they work, and apply th
 architectures.
 
 
-##########################################CNN Convulation Layer@@@@@@@@@@@@@@@@@@@
-
+CNN Convulation Layer:
 The CONV layer is the core building block of a Convolutional Neural Network. The CONV layer
 parameters consist of a set of K learnable filters (i.e., “kernels”), where each filter has a width and a
 height, and are nearly always square. These filters are small (in terms of their spatial dimensions)
@@ -442,8 +419,7 @@ features, such as parts of the face, the paw of a dog, the hood of a car, etc. T
 goes back to our neural network analogy in Chapter 10 – these neurons are becoming “excited” and
 “activating” when they see a particular pattern in an input image.
 
-##################why earch neuron in current layer is not connected to every neoron in previous layer in CNN############3
-
+why earch neuron in current layer is not connected to every neoron in previous layer in CNN:
 The concept of convolving a small filter with a large(r) input volume has special meaning in
 Convolutional Neural Networks – specifically, the local connectivity and the receptive field of
 a neuron. When working with images, it’s often impractical to connect neurons in the current
@@ -461,8 +437,7 @@ image, in this case, three channels).
 
 
 
-#####################Batch Normalization######################3
-
+Batch Normalization
 Batch normalization has been shown to be extremely effective at reducing the number of
 epochs it takes to train a neural network. Batch normalization also has the added benefit of helping
 “stabilize” training, allowing for a larger variety of learning rates and regularization strengths. Using
@@ -480,13 +455,13 @@ RELU yields slightly higher accuracy and lower loss.
 
 
 
-###############most common CNN layer architecture###################
+most common CNN layer architecture:
 INPUT => [[CONV => RELU]*N => POOL?]*M => [FC => RELU]*K => FC
 
 Alexnet Architecture
 INPUT => [CONV => RELU => POOL] * 2 => [CONV => RELU] * 3 => POOL =>[FC => RELU => DO] * 2 => SOFTMAX
 
-###VGGNET Architecture########
+VGGNET Architecture
 For deeper network architectures, such as VGGNet [100], we’ll stack two (or more) layers
 before every POOL layer:
 
@@ -509,7 +484,7 @@ faster training time.
 
 
 
-##########################Rules of Thumbs in CNN ##########################
+Rules of Thumbs in CNN:
 In this section, I’ll review common rules of thumb when constructing your own CNNs. To start,
 the images presented to the input layer should be square. Using square inputs allows us to take
 advantage of linear algebra optimization libraries. Common input layer sizes include 3232,
@@ -596,11 +571,8 @@ The VGG family of Convolutional Neural Networks can be characterized by two key 
 2. Stacking multiple CONV => RELU layer sets (where the number of consecutive CONV =>
 RELU layers normally increases the deeper we go) before applying a POOL operation
 
-
-###########Data Augmentation#################
-
-Keras Class NAme-ImageDataGenerator:
-
+Data Augmentation
+Keras Class NAme-ImageDataGenerator:
 aug = ImageDataGenerator(rotation_range=30, width_shift_range=0.1,
 28 height_shift_range=0.1, shear_range=0.2, zoom_range=0.2,
 29 horizontal_flip=True, fill_mode="nearest")
@@ -616,8 +588,7 @@ when working with datasets where we have too few examples to apply deep learning
 can utilize data augmentation to generate additional training data, thereby reducing the amount of
 hand-labeled data required to train a deep learning network.
 
-### resizing images while maintaining aspect ratio############
-
+resizing images while maintaining aspect ratio
 However, for more challenging datasets we should still seek to resize to a fixed size, but
 maintain the aspect ratio. To visualize this action, consider Figure 2.4.
 On the left, we have an input image that we need to resize to a fixed width and height. Ignoring
