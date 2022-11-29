@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-file_path = 'Notes\All ML Algos links.txt'
+file_path = 'Notes\clustering links.txt'
 lines_list = []
 
 def get_text(text:str, regex_exp : Optional[str] = r'\w+')->str:
