@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 myfile.md
-del.py
-del2.py
+logs
