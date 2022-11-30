@@ -1,5 +1,6 @@
 from designer import DesignFiles
-from constant import NOTES_DIR
+from logger import logging
+from constant import NOTES_DIR,FILEFORMAT
 import os
 from pathlib import Path
 
@@ -9,3 +10,4 @@ for single_file in file_list:
     file_path=os.path.join(NOTES_DIR,single_file)
     path = Path(file_path)
     myfile.create_file(file_path=path)
+    logging.info(f"{single_file}{FILEFORMAT} created")
